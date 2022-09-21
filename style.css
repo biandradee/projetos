@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Condensed&display=swap");
 
 body {
-  background: linear-gradient(236.85deg, #000000 27.26%, #808080 96.03%);
+  background: linear-gradient(236.85deg, #d8bfd8 27.26%, #ffe4e1 96.03%);
   font-family: "Inter", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
 
 .container {
   margin: 64px;
-  background: #f7f7f7;
+  background: #ecf4ff;
   color: #1c1c1c;
   border-radius: 20px;
   padding: 64px;
@@ -48,7 +48,7 @@ body {
   align-self: flex-end;
   font-size: 16px;
   padding: 8px 16px;
-  background: #dcdcdc;
+  background: #d8bfd8;
   box-sizing: border-box;
   border-radius: 100px;
   border: 2px solid #dcdcdc;
@@ -57,7 +57,7 @@ body {
 .projetos {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(230.65deg, #dcdcdc 27.49%, #c0c0c0 83.19%);
+  background: linear-gradient(230.65deg, #d8bfd8 27.49%, #ffe4e1 40.19%);
   margin-top: 32px;
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -83,19 +83,20 @@ body {
 }
 
 .dark {
-  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+  background: linear-gradient(236.85deg, #000000 27.26%, #363636 96.03%);
 }
 
 . dark .container {
-  background: #333439;
-  color: #f6f6f6;
+  background: #000000;
+  color: #000000;
 }
 
 .dark .projetos {
+  background: #c0c0c0;
   color: #1c1c1c;
 }
 
 .dark .tema button {
-  background: #1c1c1c;
+  background: #000000;
   color: #ffffff;
 }
